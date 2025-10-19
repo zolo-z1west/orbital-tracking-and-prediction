@@ -64,7 +64,7 @@ def derive_from_row(row: Dict[str, Any]) -> Dict[str, Any]:
             dt = None
     except Exception:
         dt = None
-    if dt is not None:                #random comment coz i got tired of typing TRY-EXCEPT
+    if dt is not None:                
         try:
             sec_of_day = dt.hour * 3600 + dt.minute * 60 + dt.second
             result["local_time_sin"] = math.sin(2 * math.pi * sec_of_day / 86400.0)
