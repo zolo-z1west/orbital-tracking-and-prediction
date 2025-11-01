@@ -2,4 +2,4 @@
 
 
 
-an ongoing project using almost all the knowledge of data science as i go learning.
+a project inspired by a research paper using core ds, ml and mathematical concepts
